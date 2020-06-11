@@ -1,0 +1,115 @@
+
+/* reset global css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    font-size: 60.2%;
+}
+
+body {
+    font-size: 2.2rem;
+    font-family: 'Roboto';
+    background-color: rgb(37, 37, 37);
+    color: #eee;
+}
+
+/* reset input, button, a css */
+input, button, a{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+/* reset ul, li css */
+ul, li {
+    list-style: none;
+}
+
+/* flex-row */
+.flx-r {
+    display: flex;
+}
+
+/* flex-column */
+.flx-c {
+    display: flex;
+    flex-direction: column;
+}
+
+/* space-between */
+.sb {
+    justify-content: space-between;
+}
+
+/* horizontal center align */
+.hc {
+    justify-content: center;
+}
+
+/* vertical center align */
+.vc {
+    margin: auto;
+    align-items: center;
+}
+
+
+/* buttons */
+.btn {
+    padding: 0.7rem 1rem;
+    width: auto;
+    background-color: #e3e3e3;
+    color: #666;
+
+    border-radius: 2rem;
+}
+
+.input {
+    padding: 0.7rem 1.2rem;
+    width: auto;
+    background-color: #e3e3e3;
+    color: #666;
+
+    border-radius: 2rem;
+}
+
+#header {
+    padding: 0 10vw;
+    width: 100%;
+    height: 8vh;
+
+    background-color: rgb(47, 47, 47);
+}
+
+#header ul, li {
+    margin: 1rem;
+}
+
+#main {
+    height: 92vh;
+}
+
+#main span {
+    font-size: 10rem;
+}
+
+#main p {
+    font-size: 3rem;
+}
+
+@media (max-width: 600px) {
+
+}
